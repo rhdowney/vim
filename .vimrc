@@ -1,5 +1,5 @@
 set background=dark
-colorscheme sonokai
+colorscheme hawk 
 syntax on
 filetype indent on
 set textwidth=80
