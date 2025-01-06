@@ -2,7 +2,6 @@ set background=dark
 colorscheme habamax
 syntax on
 filetype indent on
-set textwidth=80
 set autoindent
 set smartindent
 " tabstop:          width of tab character
@@ -64,8 +63,6 @@ iabbrev teh the
 
 augroup fileTypeVim
     autocmd!
-    " no automatic wrapping
-    set textwidth=0
     " comment line
     autocmd FileType vim nnoremap <leader>/ I" <esc>
     " uncomment line
