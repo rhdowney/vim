@@ -1,5 +1,5 @@
 set background=dark
-colorscheme hawk 
+colorscheme habamax
 syntax on
 filetype indent on
 set textwidth=80
