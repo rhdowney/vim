@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/private/etc/paths.d'
+let g:netrw_dirhist_1='/Applications/df_osx/data/init'
+let g:netrw_dirhist_0='/Users/downerh1'
+let g:netrw_dirhist_9='/Users/downerh1/.vim/pack/colors/start/sonokai.vim/colors'
+let g:netrw_dirhist_8='/Users/downerh1/.vim/pack/colors/start/sonokai.vim'
+let g:netrw_dirhist_7='/Users/downerh1/.vim/pack/colors/start/papercolor-theme'
+let g:netrw_dirhist_6='/Users/downerh1/.vim/pack/colors/start/everforest.vim'
+let g:netrw_dirhist_5='/usr/share/vim/vim90'
+let g:netrw_dirhist_4='/Users/downerh1/.vim'
+let g:netrw_dirhist_3='/Users/downerh1/.ipython/profile_default'
