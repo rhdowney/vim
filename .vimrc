@@ -89,6 +89,8 @@ augroup fileTypeTex
     autocmd FileType tex nnoremap <leader>it i\begin{itemize}<cr>\item<cr>\end{itemize}<esc><up>A<space>
     " shortcut to create enumerated list
     autocmd FileType tex nnoremap <leader>en i\begin{enumerate}<cr>\item<cr>\end{enumerate}<esc><up>A<space>
+    " shortcut to create equation
+    autocmd FileType tex nnoremap <leader>eq i\begin{equation}<cr>\end{equation}<cr><esc><up>O
     " build (compile) PDF using pdflatex
     autocmd FileType tex nnoremap <leader>c :w<cr>:silent exec '!pdflatex %'<cr><c-l>
     " build PDF using XeTeX
