@@ -1,5 +1,5 @@
 set background=dark
-colorscheme habamax
+colorscheme sonokai
 syntax on
 filetype indent on
 set autoindent
@@ -91,6 +91,10 @@ augroup fileTypeTex
     autocmd FileType tex nnoremap <leader>en i\begin{enumerate}<cr>\item<cr>\end{enumerate}<esc><up>A<space>
     " shortcut to create equation
     autocmd FileType tex nnoremap <leader>eq i\begin{equation}<cr>\end{equation}<cr><esc><up>O
+    " shortcut to create figure
+    autocmd FileType tex nnoremap <leader>fi i\begin{figure}[h!]<cr>\begin{center}<cr>\begin{minipage}[c]{0.8\textwidth}<cr>\caption{}<cr>\end{minipage}<cr>\label{}<cr>\end{center}<cr>\end{figure}<cr><esc><up><up><up><up><up>O
+    " shortcut to create tikzfigure
+    autocmd FileType tex nnoremap <leader>ti i\begin{tikzpicture}<cr>\draw<space><cr>\end{tikzpicture}<cr><esc><up><up>A
     " build (compile) PDF using pdflatex
     autocmd FileType tex nnoremap <leader>c :w<cr>:silent exec '!pdflatex %'<cr><c-l>
     " build PDF using XeTeX
